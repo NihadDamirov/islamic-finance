@@ -1,0 +1,52 @@
+.color-choice{
+    display: flex;
+    width: 460px;
+    justify-content: space-between;
+}
+
+.color-choice p{
+    font-family: 'Segoe UI';
+}
+.input-radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-btn{
+    width: 28px;
+    height: 28px;
+    margin-right: 14px;
+}
+
+.labels p{
+    width: fit-content;
+}
+
+select{
+    width: 250px;
+    margin-top: 20px;
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+select:focus{
+    outline: none;
+}
+
+.form{
+    display: flex;
+    gap: 108px;
+}
+
+.bax{
+    width: 109px;
+    height: 21px;
+    gap: 4px;
+    border-radius: 4px;
+    background-color: #094C89;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+
+}
